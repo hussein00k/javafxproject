@@ -24,7 +24,7 @@ public class PatientDB {
     public ScrollPane display(){
 
         try {
-            connect = DriverManager.getConnection("jdbc:mysql://localhost:3307/hospital", "root", "batman2019ali");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost:3307/hospital", "root", "123456");
             statement = connect.createStatement();
             resultSet = statement.executeQuery("SELECT * from patient ;");
             while (resultSet.next()) {

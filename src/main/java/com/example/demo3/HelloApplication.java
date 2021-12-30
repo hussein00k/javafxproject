@@ -7,25 +7,17 @@ import database.MedAndTretDB;
 import database.PatientDB;
 import javafx.application.Application;
 import javafx.scene.Scene;
-import javafx.scene.control.Label;
-import javafx.scene.control.ScrollBar;
-import javafx.scene.control.ScrollPane;
 import javafx.scene.effect.DropShadow;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import java.io.IOException;
-import java.sql.Connection;
-import java.util.List;
-
 import desgin.*;
-import org.w3c.dom.Text;
 import pages.ConsultationPage;
 import pages.DoctorPage;
 import pages.MedAndTret;
 import pages.PatientPage;
 import sence.ARevent;
 import sence.esh;
-import system.*;
 
 public class HelloApplication extends Application {
     DoctorPage doctorPage=new DoctorPage();

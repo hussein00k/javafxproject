@@ -90,7 +90,7 @@ public class ConsultationDB {
     public void insert(String name,int capacity){
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            connect = DriverManager.getConnection("jdbc:mysql://localhost:3307/hospital", "root", "batman2019ali");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost:3307/hospital", "root", "123456");
             connect.prepareStatement("INSERT INTO `hospital`.`consultation`\n" +
                     "(`name`,\n" +
                     "`capacity`)\n" +
